@@ -71,7 +71,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
     </style>
         <script id="CookieDeclaration" src="https://consent.cookiebot.com/ddf84b18-2abf-4eba-9027-55d0b8999d45/cd.js" type="text/javascript" async></script>
-
+    <script>function add();
+            {
+                var current = document.getElementById("current_row").value;
+                var new = current + 1;
+                current = new;
+            }
+    </script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -82,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div>
         <button type="minus_button">-</button>
         <p id="current_row">1</p>  </div>
-        <button type="plus_button">+</button>
+        <button type="plus_button" onclick="add()">+</button>
 
 </div>
 
