@@ -57,6 +57,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               top: 50%;
              left: 50%;
         }
+                #plus_button {
+            font-size: 80%; 
+              position: fixed; /* or absolute */
+              top: 50%;
+             left: 80%;
+        }
+                #minus_button {
+            font-size: 80%; 
+              position: fixed; /* or absolute */
+              top: 50%;
+             left: 30%;
+        }
     </style>
         <script id="CookieDeclaration" src="https://consent.cookiebot.com/ddf84b18-2abf-4eba-9027-55d0b8999d45/cd.js" type="text/javascript" async></script>
 
@@ -67,7 +79,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <div id="snow">
-    <div>  <p id="current_row">1</p>  </div>
+    <div>
+        <button type="minus_button">-</button>
+        <p id="current_row">1</p>  </div>
+        <button type="plus_button">+</button>
+
 </div>
 
 </body>
