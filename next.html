@@ -13,6 +13,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 	  
 
+	  <script>
+
+ window.addEventListener('message',function(){
+
+   if (event.origin === 'https://mag-curamando.github.io' && event.data === 'iframeTestPageLoad') {
+
+      window.dataLayer.push({'event': 'formSubmit2'});
+
+   }
+
+   else {
+
+     console.log('tNot working from source code)
+
+   }
+
+ },
+
+   false)
+
+</script>
+	  
+	  
 	
   function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
