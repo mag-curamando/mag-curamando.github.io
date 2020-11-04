@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	  <script>
 
  window.addEventListener('message',function(){
-
+console.log('Hear event')
    if (event.data === 'iframeTestPageLoad') {
 	console.log('work')
       window.dataLayer.push({'event': 'formSubmit2'});
