@@ -9,14 +9,10 @@
 	<head>
 		<script type = "text/javascript" >
 try {
-var postObject = JSON.stringify({ //This JSON can be altered to contain dynamic data or static data depending on requirements.
-type: 'Free Trial',
-action: 'FormSub'
-});
-parent.postMessage('iframeTestPageLoad', 'https://mag-curamando.github.io/')
+
 	
-parent.postMessage(postObject, 'https://mag-curamando.github.io/')
-}
+parent.postMessage('iframeTestPageLoad', 'https://mag-curamando.github.io/')
+	}
 catch (e) {
 parent.console && parent.console.log(e);
 }
