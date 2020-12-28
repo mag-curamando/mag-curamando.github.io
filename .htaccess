@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile mag-curamando/mag-curamando.github.io/.htpasswd
-require valid-user
